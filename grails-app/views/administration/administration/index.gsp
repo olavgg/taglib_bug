@@ -15,5 +15,10 @@
 <permission:isAdministrator>
 	<h1>Hello!</h1>
 </permission:isAdministrator>
+<g:each in="${brains}" var="b">
+	<permission:isAdministrator>
+		<h2>world!</h2>
+	</permission:isAdministrator>
+</g:each>
 </body>
 </html>

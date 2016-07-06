@@ -4,7 +4,9 @@ class AdministrationController {
 
     static namespace = "administration"
 
-    def index() { }
+    def index() {
+        [brains: [1,2,3,4,5]]
+    }
 
     def login(){
         session['userId'] = 1
